@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello Compass xD</h1>
+    <div class="popup">
+        <p>Sign up and get 20% off your first order. <a href="#">Sign Up Now</a></p>
+        <button class="fechar-popup">&times;</button>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>SHOP.CO</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Shop &#9662;</a></li>
+                    <li><a href="#">On Sale</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Brands</a></li>
+                </ul>
+            </nav>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <img src="assets/lupa.png" alt="Search" class="search-icon">
+            </div>
+
+            <div class="user-icons">
+                <a href="#"><img src="assets/carrinho.png" alt="Carrinho"></a>
+                <a href="#"><img src="assets/conta.png" alt="Conta"></a>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
 </body>
 </html>
